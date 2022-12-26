@@ -1,8 +1,6 @@
 package com.programmers.level0;
 
-import java.util.Arrays;
-
-public class Q30 {
+public class Q030 {
     public static void main(String[] args) {
         String result = solution("hello", 3);
         System.out.println(result);

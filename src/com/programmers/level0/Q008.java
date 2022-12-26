@@ -1,6 +1,6 @@
 package com.programmers.level0;
 
-public class Q8 {
+public class Q008 {
     public static void main(String[] args) {
         int result = solution(180);
         System.out.println(result);

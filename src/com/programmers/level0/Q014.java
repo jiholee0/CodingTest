@@ -1,15 +1,15 @@
 package com.programmers.level0;
 
-public class Q12 {
+public class Q014 {
     public static void main(String[] args) {
-        int result = solution(new int[]{1, 1, 2, 3, 4, 5},1);
+        int result = solution(new int[]{149, 180, 192, 170}, 167);
         System.out.println(result);
     }
 
-    public static int solution(int[] array, int n) {
+    public static int solution(int[] array, int height) {
         int answer = 0;
         for (int item : array){
-            answer = item == n? answer+1 : answer;
+            answer = item > height? answer + 1 : answer;
         }
         return answer;
     }

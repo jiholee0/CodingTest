@@ -2,7 +2,7 @@ package com.programmers.level0;
 
 import java.util.*;
 
-public class Q17 {
+public class Q017 {
     public static void main(String[] args) {
         String result = solution2("jaron");
         System.out.println(result);

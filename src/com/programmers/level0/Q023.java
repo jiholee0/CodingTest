@@ -2,7 +2,7 @@ package com.programmers.level0;
 
 import java.util.Arrays;
 
-public class Q23 {
+public class Q023 {
     public static void main(String[] args) {
         int[] result = solution2(new int[]{1, 2, 3, 4, 5});
         System.out.println(Arrays.toString(result));

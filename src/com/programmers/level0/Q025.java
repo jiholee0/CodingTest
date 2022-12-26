@@ -2,7 +2,7 @@ package com.programmers.level0;
 
 import java.util.Arrays;
 
-public class Q25 {
+public class Q025 {
     public static void main(String[] args) {
         int[] result = solution(5500);
         System.out.println(Arrays.toString(result));

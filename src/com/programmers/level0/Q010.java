@@ -1,6 +1,6 @@
 package com.programmers.level0;
 
-public class Q10 {
+public class Q010 {
     public static void main(String[] args) {
         int result = solution(10);
         System.out.println(result);

@@ -2,7 +2,7 @@ package com.programmers.level0;
 
 import java.util.Arrays;
 
-public class Q22 {
+public class Q022 {
     public static void main(String[] args) {
         int result = solution2(new int[]{199, 72, 222});
         System.out.println(result);

@@ -1,6 +1,6 @@
 package com.programmers.level0;
 
-public class Q21 {
+public class Q021 {
     public static void main(String[] args) {
         int result = solution(new int[]{2,4});
         System.out.println(result);

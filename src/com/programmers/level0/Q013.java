@@ -1,14 +1,14 @@
 package com.programmers.level0;
 
-public class Q6 {
+public class Q013 {
     public static void main(String[] args) {
-        int result = solution(40);
+        int result = solution(10, 3);
         System.out.println(result);
     }
 
-    public static int solution(int age) {
+    public static int solution(int n, int k) {
         int answer = 0;
-        answer = 2022 - age + 1;
+        answer = 12000*n + 2000*(k-n/10);
         return answer;
     }
 }
