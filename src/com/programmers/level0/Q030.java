@@ -13,12 +13,4 @@ public class Q030 {
         }
         return answer;
     }
-
-    public static String solution2(String my_string, int n) {
-        String answer = "";
-        for(char ch : my_string.toCharArray()){
-            answer += ch*3;
-        }
-        return answer;
-    }
 }
