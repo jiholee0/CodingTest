@@ -8,9 +8,9 @@ public class Q044 {
         int n = sc.nextInt();
         for(int cnt=1;cnt<=n;cnt++){
             char ch = '*';
-            String str= ch.repeat(cnt);
 
-            System.out.print(str);
+
+            System.out.print("");
         }
         System.out.println(n);
     }
